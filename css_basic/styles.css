@@ -27,7 +27,7 @@ aside{
     flex: 1;
     overflow-y: auto;
     padding: 20px;
-    background: color #f9f9f9;
+    background-color:  white;
 }
 footer{
     background-color: white;
