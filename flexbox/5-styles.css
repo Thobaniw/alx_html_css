@@ -172,7 +172,10 @@
         margin-left: auto;
         margin-right: auto;
       }
-  
+      .header-contanier{
+        display: flex;
+        justify-content: space-between;
+      }
 
   
   /* Grid
