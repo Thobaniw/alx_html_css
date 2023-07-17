@@ -1,0 +1,257 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  /* Main Styles */
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-heading h2 {
+    color: #333;
+    font-size: 32px;
+  }
+  
+  .section-heading p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  .block-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .block-item h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .block-item p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button button:hover {
+    background-color: #555;
+  }
+  
+  /* Quote Section Styles */
+  
+  .quote-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quote-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .quote-section blockquote {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-section blockquote p {
+    margin: 0;
+  }
+  
+  .quote-section cite {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .quote-section p {
+    color: #777;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  /* Video Section Styles */
+  
+  .video-section {
+    padding: 40px 0;
+  }
+  
+  .video-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .video-block img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .video-block h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .video-block p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  .author-block img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .rating-block .stars img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .rating-block p {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  /* Membership Section Styles */
+  
+  .membership-section {
+    padding: 40px 0;
+  }
+  
+  .membership-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .membership-section .block-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .membership-section .block-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .membership-section .block-item h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .membership-section .block-item p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  /* FAQ Section Styles */
+  
+  .faq-section {
+    padding: 40px 0;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .faq-section .row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .faq-section .item-block {
+    flex-basis: 48%;
+  }
+  
+  .faq-section .item-block h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-section .item-block p {
+    color: #777;
+    font-size: 16px;
+  }
+  
